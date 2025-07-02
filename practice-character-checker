@@ -1,4 +1,8 @@
 const readline = require('readline-sync');
 let wordOrPhrase = readline.question("Enter any word or phrase? ");
 let indexNum =readline.questionInt("enter index number? ");
-console.log("The character at entered index is :" + wordOrPhrase[indexNum] )
+console.log("The character at entered index is :" + wordOrPhrase[indexNum] );
+
+
+
+
